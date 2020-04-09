@@ -3,15 +3,42 @@
 <head>
   <title>스푼 에덴팸 설명</title>
   <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:deepskyblue;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:40px;
+      text-align:center;
+      border-bottom:1px solid black;
+      padding-bottom:20px;
+      margin-bottom:0px;
+    }
+    ol{
+      border-right:1px solid black;
+      width:120px;
+      margin-top:0px;
+      padding-top:20px;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns: 200px 1fr;
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">스푼 에덴팸 Spoon Eden Fam</a></h1>
+  <div id="grid">
   <ol><b>
-    <li><a href="스푼 에덴팸 설명.html">에덴팸 설명</a></li>
-    <li><a href="스푼 에덴팸 지원.html">에덴팸 지원</a></li>
+    <li><a href="스푼 에덴팸 설명.html" style=color:darkblue>에덴팸 설명</a></li><br>
+    <li><a href="스푼 에덴팸 지원.html">에덴팸 지원</a></li><br>
     <li><a href="스푼 에덴팸 규칙.html">에덴팸 규칙</a></li>
   </ol>
-
+  <div>
   <p>
     <h2>에덴팸 설명</h2><br>
     에덴팸 홍보배사<br>
@@ -22,3 +49,27 @@
     팸으로 분류하기는 하지만 체계적인 시스템으로 돌아간다고 정신승리중이며,<br>
     팸 내에서 방송팀, 예비방송팀, 소통팀, 매니저팀 으로 역할이 나누어져있다.
   </p>
+  </div>
+</div>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://spoon-edenfam.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
