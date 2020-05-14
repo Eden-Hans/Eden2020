@@ -15,23 +15,25 @@
     <li style="margin-bottom:620px;"><a href="스푼 에덴팸 명단.html">에덴팸 명단</a></li><br>
   </ol>
   <div>
+    <script>
+      var members = {
+        "총괄":"한스"
+        "팸장":"이응"
+        "부팸장":"백꽁"
+        "간부":"창세", "달냥"
+      };
+    </script>
     <p>
     <input type="button" value="한스" onclick="alert('안귀여움')">
+    <input type="button" value="간부진" onclick="alert()">
     </p>
+    <script>
+      for(var key in members) {
+        document.write(key+' : '+members[key]'<br>');
+      }
+    </script>
   </div>
   </div>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/5e8ff32069e9320caac2267f/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
+  <script src="Tawkto.js"></script>
 </body>
 </html>
