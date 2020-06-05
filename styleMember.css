@@ -21,7 +21,7 @@ ol{
 }
 #grid{
   display:grid;
-  grid-template-columns: 200px 200px 1fr;
+  grid-template-columns: 200px 200px 1fr 1fr;
   font-weight: bold;
 }
 @media(max-width:550px){
